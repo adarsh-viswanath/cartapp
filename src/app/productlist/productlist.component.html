@@ -1,0 +1,4 @@
+<div>
+    <h1>Product</h1>
+    <h3 *ngFor="let item of listArray; index as i">{{item}} <button class="addToCart" (click)="onAdd(item)">Add</button><hr/></h3>
+</div>
